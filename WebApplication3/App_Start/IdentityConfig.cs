@@ -15,6 +15,7 @@ namespace WebApplication3
     {
         public Task SendAsync(IdentityMessage message)
         {
+            //https://www.radenkozec.com/asp-net-identity-2-1-for-mysql/
             // Plug in your email service here to send an email.
             return Task.FromResult(0);
         }
